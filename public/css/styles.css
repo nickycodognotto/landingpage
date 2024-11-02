@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bowlby+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bowlby+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +8,6 @@
   }
   
 body{ 
-  /* background-color: #f1e9e6; */
   background-color: #eee4d6;
   overflow: hidden;
 }
@@ -23,8 +21,9 @@ header{
 }
 
 P, h1, h2, h3{ 
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -46,10 +45,11 @@ P, h1, h2, h3{
 }
 
 .coffeeTitle {
-  font-family: "Bowlby One", sans-serif;
-  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
   font-style: normal;
-  font-size: 10em;
+  font-size: 11em;
   height: 195px;
   user-select: none;
 }
@@ -57,16 +57,21 @@ P, h1, h2, h3{
 .descText{
   font-size: 1.5em;
   text-transform: uppercase;
-  margin-left: 12px;
+  margin-left: 30px;
   user-select: none;
 }
 
-.coffeeImage{
-  height: 70%;
-  margin-top: 20px;
+.coffeeImage2{
+  height: 62%;
   user-select: none;
 }
 
 
+.ratingANDbutton{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-top: 3em;
+  gap: 4.5em;
+}
 
-  
